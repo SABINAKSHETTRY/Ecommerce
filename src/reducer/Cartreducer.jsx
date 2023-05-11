@@ -3,9 +3,28 @@ import React from 'react'
 const Cartreducer = (state,action) => {
     if (action.type==="ADD_TO_CART"){
         let {id,amount,product}=action.payload;
-        console.log("helloooooo")
+        // console.log("helloooooo")
+        if (state.cart.find(e => e.id === id)) {
 
-    
+
+          state.cart.forEach((element, index) => {
+            if(element.id === id) {
+              let prod = element.amount+amount
+              if(prod<=product.stock)
+                element.amount=prod;
+                else{
+                  element.amount=product.stock
+                }
+                  
+                
+            }
+
+        }
+        );
+          
+        }
+        else{
+            
     let cartProduct;
     cartProduct={
         id,
@@ -23,6 +42,10 @@ const Cartreducer = (state,action) => {
         cart:[...state.cart,cartProduct],
     }
 }
+
+        }
+
+  
 if (action.type === "REMOVE_ITEM") {
     let updatedCart = state.cart.filter(
       (curItem) => curItem.id !== action.payload
