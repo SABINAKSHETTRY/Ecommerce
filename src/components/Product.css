@@ -1,0 +1,127 @@
+.productimg>img{
+    height: 180px;
+    width: 180px;
+    margin-top: 13px;
+}
+.productholder{
+    overflow: hidden;
+}
+.productimg>img:hover{
+    /* transition: all 0.1s linear; */
+  transform: scale(1.1);
+  border:8px solid rgb(234, 231, 231);
+  border-radius: 5px;
+}
+.features{
+    padding: 10px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(223, 216, 216, 0.2);
+    height:310px;
+}
+
+.featuring{
+    display: flex;
+    justify-content: space-between;
+    width:800px;
+    text-decoration: none;
+    
+
+}
+.featuring>a{
+    text-decoration: none;
+}
+.check{
+
+    font-size: larger;
+    color: #0067a0;
+    width:800px;
+    cursor: pointer;
+   
+}
+
+.services{
+    color: black;
+    width:800px;
+   
+}
+.nameprice{
+    display: flex;
+  justify-content: space-between;
+  width:190px;
+  /* border-radius: 35px; */
+  /* height: 37px; */
+  /* background-color: rgba(188, 183, 183, 0.2); */
+ 
+}
+.category{
+    margin-top: 12px;
+    background-color: rgba(188, 183, 183, 0.2);
+    color: black;
+    text-decoration: none;
+    border-radius: 35px;
+    width:110px;
+    text-align: center;
+    margin-left: 38px;
+    /* margin-top: 20px; */
+}
+.nameprice>h3,p{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+@media  screen and (max-width:600px){
+    .check, .services{
+        margin-left: 580px;
+    }
+    .productimg>img{
+        height: 120px;
+        width: 120px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+    .featuring{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:20px;
+        width:300px;
+        text-decoration: none;
+        margin-left:0px;
+        margin-top: 5px;
+        /* background-color: red; */
+        
+    
+    }
+    .features{
+        width:300px;
+        /* background-color:red; */
+        margin-left: 25px;
+        height:750px;
+    }
+    .productimg>img{
+        height: 140px;
+        width: 140px;
+        margin-left: 90px;
+    }
+    .productimg{
+        /* background: red; */
+        width: 250px;
+    }
+    .category{
+        margin-left: 100px;
+    }
+    .listviews{
+        display: none;
+    }
+    .nameprice>h3{
+        margin-left: 60px;
+    }
+    .prices{
+        margin-left: 50px;
+
+    }
+}

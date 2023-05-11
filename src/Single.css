@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    width:700px;
+    gap:30px;
+    height: 77vh;
+    
+}
+.productdata{
+    margin-top: 20px;
+}
+.image4{
+ height:100px;
+ width: 100px;
+}
+.mainimage{
+    height: 200px;
+    width: 200px;
+
+}
+.twosides{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap:20px;
+    margin-top: 60px;
+}
+.fourdata{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+    width: 400px;
+    /* background-color: red; */
+}
+.amounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.button11, .button12{
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+    /* background-color:#0067a0 ; */
+    /* border:3px solid white; */
+  
+    
+}
+.button11:hover{
+background-color: grey;
+}
+.button12:hover{
+    background-color:grey;
+    }
+.addTocart{
+    height: 30px;
+    width:100px;
+        background-color:rgb(209, 202, 202);
+        
+        
+     
+        cursor: pointer;
+        border:1px solid white;
+        
+    }
+
+ .addTocart:hover{
+        background-color: #0067a0 ;
+       
+        transform:none;
+        transition: none;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .holds{
+        background-color: #0067a0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    @media  screen and (max-width:600px){
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 0px;
+            width:355px;
+            gap:30px;
+            margin-top: 30px;
+            padding: 10px;
+            overflow-x: hidden;
+            text-align: center;
+            height: 1000px;
+            
+            
+        }
+        .twosides{
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            
+            gap:20px;
+            margin-top: 60px;
+        }
+        .productdata>h2{
+            margin-left: 10px;
+        }
+        .productdata>p{
+            /* height: 200px; */
+            width: 330px;
+            margin-left: 20px;
+            text-align:justify;
+        }
+        .fourdata{
+            width:350px;
+            margin-left: 7px;
+            
+        }
+        .addTocart{
+            margin-top: 5px;
+          
+          
+        }
+     
+
+    }

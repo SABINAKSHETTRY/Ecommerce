@@ -1,0 +1,144 @@
+.cart_head {
+
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+.cart_containerss {
+   
+    height: 405px;
+    padding-top: 100px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    gap: 45px;
+    padding-bottom: 0px;
+
+    width: 1000px;
+    /* background-color: red; */
+}
+
+
+
+.smallimg {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+.prodname {
+    color: black;
+}
+
+.imagename {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+    /* background-color: red; */
+    width: 150px;
+}
+.removed {
+    height: 17px;
+    width: 25px;
+}
+.totalprice{
+    height:50px;
+    width:250px;
+    background-color: rgba(59,130,246,0.1);
+    text-align: center;
+    margin-left:1200px;
+    margin-bottom: 20px;
+    
+    padding-top: 5px;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width: 600px) {
+    .cart_containerss {
+      
+        height: 450px;
+        padding-top: 10px;
+        display: flex;
+        
+        margin-top: 5px;
+  
+        align-items: center;
+      
+        flex-direction: column;
+        align-items: center;
+       
+        margin-left:50px;
+        width: 100vw;
+        
+       
+        
+        
+       
+
+       
+    }.totalprice{
+        height:60px;
+        width:210px;
+        background-color: rgba(59,130,246,0.1);
+        text-align: center;
+        margin-left:150px;
+        margin-bottom: 20px;
+        
+        padding-top: 5px;
+        box-sizing: border-box;
+        
+    }
+    .cart_head{
+        gap:20px;
+    }
+  
+    .imagename{
+        width: 110px;
+    }
+    .imagename img{
+        display: none;
+    }
+    .cart_head{
+       
+        margin-left: 0;
+    
+        width:100%;
+    }
+  
+
+    .price{
+        display: none;
+    }
+    .item, .quantity, .removed, .subtotal{
+        font-size: 14px;
+      
+        width:40px;
+        
+    }
+    .cartItem{
+        margin-left: 0;
+    }
+   
+    .prodname>p{
+       
+        font-size: 12px;
+    }
+    .removed{
+        height: 18px;
+        width: 20px;
+        margin-left: 8px;
+    }
+    .smallingprice{
+        display: none;
+    }
+    .imagename{
+        width:70px;
+    }
+    
+ 
+   
+}

@@ -1,0 +1,4 @@
+.productwrapper{
+    display: grid;
+    grid-template-columns: 0.2 fr 1fr;
+}

@@ -1,0 +1,127 @@
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    /* margin-top:66px; */
+    height:500px;
+    background-color:#EFF5F5;
+    height: 80vh;
+    overflow: hidden;
+    /* color:orangered; */
+}
+.formclass{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    height: 100vh;
+    margin-top: 70px;
+    /* background-color: red; */
+    width:500px;
+    padding: 10px;
+    /* margin-left: 30px; */
+    
+}
+.buttonsss{
+    height: 40px;
+    width: 150px;
+    border-radius: 18px;
+   border: none;
+   cursor: pointer;
+   color:white;
+   background-color: #0067a0;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+}
+.buttonsss:hover{
+    transform:rotate(-1deg);
+    background-color:#0067a0;
+    border:8px solid rgb(228, 220, 220);
+}
+.name{
+    height: 50px;
+    width:450px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+   
+}
+::placeholder{
+    text-align: center;
+    
+}
+.form-element input{
+ padding: 10px;
+ box-sizing: border-box;
+}
+{
+    padding: 10px;
+}
+
+label{
+    padding: 10px;
+  
+}
+
+.text{
+    outline: none;
+}
+
+.text{
+    width:400px;
+    border: none;
+    border-radius: 15px;
+}
+.messages{
+    /* display: flex; */
+    /* margin-left: 80px; */
+    /* background-color: yell
+    ow; */
+    width:450px;
+    /* width:600px; */
+}
+#message{
+    width:100%;
+    /* border-radius: 20px; */
+}
+@media  screen and (max-width:600px){
+    .formclass{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        gap:20px;
+        height: 400px;
+        
+        
+        width:400px;
+        padding: 0px;
+      
+        
+    }
+    .forms{
+        margin-top: 0px;
+        width:400px;
+        padding: 0px;
+        height: 460px;
+        background-color:#EFF5F5;
+        /* height:500px; */
+    }
+    .name{
+        height: 50px;
+        width:250px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+       
+    }
+    .messages{
+        gap:5px;
+        width: 250px;
+    }
+   
+}

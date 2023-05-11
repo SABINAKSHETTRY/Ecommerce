@@ -1,0 +1,96 @@
+.payments{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:900px;
+    margin-left:300px;
+    height:100px;
+    /* margin-top: 50px; */
+    
+    
+    
+}
+.pay11{
+    transition: all 0.4s ease; 
+    height:60px;
+    width: 110px;
+    /* box-shadow: 8px 5px 15px rgb(215, 206, 200); */
+    
+   
+}
+.pay22{
+    transition: all 0.2s ease;
+    height: 60px;
+    width:100px;
+    box-shadow: 8px 5px 15px rgb(215, 206, 200);
+    
+}
+.pay33{
+    transition: all 0.4s ease; 
+    transition: width 2s linear 1s;
+    height: 60px;
+    width: 100px;
+    box-shadow: 8px 5px 15px rgb(215, 206, 200);
+    
+}
+.pay44{
+    transition: all 0.4s ease; 
+    height:60px;
+    width:100px;
+    box-shadow: 8px 5px 15px rgb(215, 206, 200);
+    
+}
+.pay55{
+    transition: all 0.4s ease; 
+    height:60px;
+    width:60px;
+    box-shadow: 8px 5px 15px rgb(215, 206, 200);
+    
+    
+}
+.pay11:hover{
+    
+    box-shadow: 5px 5px 15px rgb(154, 151, 148);
+  
+}
+.pay22:hover{
+ 
+    box-shadow: 5px 5px 15px rgb(154, 151, 148);
+}
+.pay33:hover{
+  
+    box-shadow: 5px 5px 15px rgb(154, 151, 148);
+}
+.pay44:hover{
+    
+    box-shadow: 5px 5px 15px rgb(154, 151, 148);
+}
+.pay55:hover{
+    
+    box-shadow: 5px 5px 15px rgb(154, 151, 148);
+}
+.paymentss{
+    margin-top: 70px;
+    text-align: center;
+    color:#0067a0 ;
+}
+@media  screen and (max-width:600px){
+    .payments{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:300px;
+        gap:3px;
+        margin-left:30px;
+        height:80px;
+        /* margin-top: 50px; */
+        
+        
+        
+    }
+    .pay11, .pay22, .pay33, .pay44, .pay55{
+        height:40px;
+        width: 40px;
+    }
+
+}
