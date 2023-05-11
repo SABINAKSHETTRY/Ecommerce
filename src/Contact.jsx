@@ -24,7 +24,7 @@ const Contact = () => {
                         onChange={(e)=>{
                              setname(e.target.value)
                         }}
-                        value={isAuthenticated?user.name:""}
+                        value={name}
                     ></input>
                 </div>
                 <div className="form-element">
@@ -40,7 +40,7 @@ const Contact = () => {
                         onChange={(e)=>{
                             setemail(e.target.value)
                        }}
-                       value={isAuthenticated?user.email:""}
+                       value={email}
                     ></input>
                 </div>
                 <div className="messages form-element">
